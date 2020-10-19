@@ -234,12 +234,12 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>This is the learning notes for <em>The element of statistic learning</em> chapter 5 Piecewise Polynomials and Splines</p>
-<a id="more"></a>
-<h1 id="导言"><a href="#导言" class="headerlink" title="导言"></a>导言</h1><p>回归问题中$f(x) =E(Y|X)$关于X一般不是线性的也不是可加的（additive），但用线性模型来表示$F(x)$ 很方便,且有时是必要的. 线性模型的方便之处在于易于理解，而且有时候是必要的近似. 必要时因为当$N$很小$p$很大时，线性模型不需要过拟合就可以达到拟合数据的目的。接下来讨论超线性（movinbg beyong linearity） 的方法。 核心思想是<strong>利用额外的变量来增加或者替换输入X的向量，然后在新得到的输入特征的空间中运用线性模型</strong>。<br>用$h_m(x) : \mathbb{R}^{p} \longmapsto \mathbb{R}$ 来记$X$第m个变换，然后建立模型：<br>$$ f(X)=\sum_{m=1}^{M} \beta_{m} h_{m}(X) $$<br>一些简单例子如下：</p>
+        <p>This is the learning notes for <em>The element of statistic learning</em> chapter 5 Piecewise Polynomials and Splines<br><a id="more"></a></p>
+<h1 id="导言"><a href="#导言" class="headerlink" title="导言"></a>导言</h1><p>回归问题中$f(x) =E(Y|X)$关于X一般不是线性的也不是可加的（additive），但用线性模型来表示$F(x)$ 很方便,且有时是必要的. 线性模型的方便之处在于易于理解，而且有时候是必要的近似. 必要时因为当$N$很小$p$很大时，线性模型不需要过拟合就可以达到拟合数据的目的。接下来讨论超线性（movinbg beyong linearity） 的方法。 核心思想是<strong>利用额外的变量来增加或者替换输入X的向量，然后在新得到的输入特征的空间中运用线性模型</strong>。<br>用$h_m(x) : \mathbb{R}^{p} \longmapsto \mathbb{R}$ 来记$X$第m个变换，然后建立模型：</p>
+<script type="math/tex; mode=display">f(X)=\sum_{m=1}^{M} \beta_{m} h_{m}(X)</script><p>一些简单例子如下：</p>
 <ul>
 <li>$h_m(X) = X_m$, 则就是最本身的线性模型</li>
-<li>$h_m(X) = X^2_j$允许增加输入中的多项式来达到高阶的泰勒展开.<h1 id="分段多样式和样条（Piecewise-Polynomials-and-Splines）"><a href="#分段多样式和样条（Piecewise-Polynomials-and-Splines）" class="headerlink" title="分段多样式和样条（Piecewise Polynomials and Splines）"></a>分段多样式和样条（Piecewise Polynomials and Splines）</h1>Piecewise Polynomials 通过将X的定义域分成连续的区间得到。并且在每个区间中用单独的多项式来表示$f$. 下图显示了两种分段多项式，第一种为分段常数，第二种为再$m$个区域的均值，蓝色线为实际的函数。一般情况下更想要右上，分段线性。$(X-\xi_1)_+$ 表示取正值。<br><img src="/.com//fig5.1.png"><br>偏好光滑函数，可通过增加局部多项式的阶数来实现。<br><img src="/.com//fig5.2.png"><br>如Fig5.2右下显示，<strong>函数本身连续，且一阶与二阶导连续</strong></li>
+<li>$h_m(X) = X^2_j$允许增加输入中的多项式来达到高阶的泰勒展开.<h1 id="分段多样式和样条（Piecewise-Polynomials-and-Splines）"><a href="#分段多样式和样条（Piecewise-Polynomials-and-Splines）" class="headerlink" title="分段多样式和样条（Piecewise Polynomials and Splines）"></a>分段多样式和样条（Piecewise Polynomials and Splines）</h1>Piecewise Polynomials 通过将X的定义域分成连续的区间得到。并且在每个区间中用单独的多项式来表示$f$. 下图显示了两种分段多项式，第一种为分段常数，第二种为再$m$个区域的均值，蓝色线为实际的函数。一般情况下更想要右上，分段线性。$(X-\xi<em>1)</em>+$ 表示取正值。<br><img src="/.com//fig5.1.png" alt><br>偏好光滑函数，可通过增加局部多项式的阶数来实现。<br><img src="/.com//fig5.2.png" alt><br>如Fig5.2右下显示，<strong>函数本身连续，且一阶与二阶导连续</strong></li>
 </ul>
 
     </div>
@@ -382,7 +382,7 @@
   <span class="author" itemprop="copyrightHolder">Sun Jiawei</span>
 </div>
 <div class="theme-info">
-  <span class="post-count"> This blog contains 692 word</span>
+  <span class="post-count"> This blog contains 691 word</span>
 </div>
 
         
