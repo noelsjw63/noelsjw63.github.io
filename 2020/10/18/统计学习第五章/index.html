@@ -22,17 +22,17 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="导言回归问题中$f(x) &#x3D;E(Y|X)$关于X一般不是线性的也不是可加的（additive），但用线性模型来表示$F(x)$ 很方便,且有时是必要的. 线性模型的方便之处在于易于理解，而且有时候是必要的近似. 必要时因为当$N$很小$p$很大时，线性模型不需要过拟合就可以达到拟合数据的目的。接下来讨论超线性（movinbg beyong linearity） 的方法。 核心思想是利用额外的变量来">
+  <meta name="description" content="The element of statistic learning chapter 5 Piecewise Polynomials and Splines">
 <meta property="og:type" content="article">
 <meta property="og:title" content="统计学习学习笔记(5)">
 <meta property="og:url" content="http://example.com/2020/10/18/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E7%AC%AC%E4%BA%94%E7%AB%A0/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="导言回归问题中$f(x) &#x3D;E(Y|X)$关于X一般不是线性的也不是可加的（additive），但用线性模型来表示$F(x)$ 很方便,且有时是必要的. 线性模型的方便之处在于易于理解，而且有时候是必要的近似. 必要时因为当$N$很小$p$很大时，线性模型不需要过拟合就可以达到拟合数据的目的。接下来讨论超线性（movinbg beyong linearity） 的方法。 核心思想是利用额外的变量来">
+<meta property="og:description" content="The element of statistic learning chapter 5 Piecewise Polynomials and Splines">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/2020/10/18/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E7%AC%AC%E4%BA%94%E7%AB%A0/imgs/fig5.1.png">
 <meta property="og:image" content="http://example.com/2020/10/18/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E7%AC%AC%E4%BA%94%E7%AB%A0/imgs/fig5.2.png">
 <meta property="article:published_time" content="2020-10-18T11:20:02.000Z">
-<meta property="article:modified_time" content="2020-10-19T10:33:08.502Z">
+<meta property="article:modified_time" content="2020-10-19T12:04:22.818Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/2020/10/18/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E7%AC%AC%E4%BA%94%E7%AB%A0/imgs/fig5.1.png">
@@ -210,10 +210,11 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-10-19 18:33:08" itemprop="dateModified" datetime="2020-10-19T18:33:08+08:00">2020-10-19</time>
+                <time title="Modified: 2020-10-19 20:04:22" itemprop="dateModified" datetime="2020-10-19T20:04:22+08:00">2020-10-19</time>
               </span>
 
           
+            <div class="post-description">The element of statistic learning chapter 5 Piecewise Polynomials and Splines</div>
 
         </div>
       </header>
